@@ -38,7 +38,6 @@ function filterByQuery(query, animalsArray) {
     if (query.name) {
         filteredResults = filteredResults.filter(animal => animal.name === query.name);
     }
-    // return the filtered results:
     return filteredResults;
 }
 
